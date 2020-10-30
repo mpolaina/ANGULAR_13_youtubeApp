@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+iframe {
+  height: 70vh;
+}
+
+@media (max-width: 600px) {
+  iframe {
+    height: auto;
+  }
+}
+
+.card-title {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 1rem 0.4rem;
+}
